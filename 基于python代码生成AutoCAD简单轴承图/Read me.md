@@ -1,0 +1,1 @@
+该代码基于python生成，使用时需导入pyautocad数据库
