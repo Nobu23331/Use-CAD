@@ -31,10 +31,10 @@ def draw_enhanced_bearing(inner_dia, ball_dia, num_balls):
         # 设置滚珠颜色（红色增强可视化）
         ball.Color = 1
 
-# 新参数设置（单位：毫米）
-bearing_inner_dia = 30  # 轴承内孔直径
-ball_diameter = 6       # 滚珠直径
-number_of_balls = 12    # 滚珠数量
+# 参数设置（单位：毫米）
+bearing_inner_dia = 30  # 轴承内孔直径(可自设)
+ball_diameter = 6       # 滚珠直径(可自设)
+number_of_balls = 12    # 滚珠数量(可自设)
 
 # 执行绘图
 draw_enhanced_bearing(bearing_inner_dia, ball_diameter, number_of_balls)
